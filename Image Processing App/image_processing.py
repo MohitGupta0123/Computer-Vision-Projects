@@ -42,7 +42,7 @@ def add_annotations(image, annotation_type, position, color):
 # Main function
 def main():    
     # st.set_page_config(page_title="Image Processing App", page_icon=":camera:", layout="wide", initial_sidebar_state="expanded")
-    st.set_page_config(page_title="Image Processing App", page_icon="https://img.freepik.com/premium-photo/flat-color-camera-logo-ai-generated_860599-6247.jpg", layout="wide", initial_sidebar_state="expanded")
+    st.set_page_config(page_title="Image Processing App", page_icon="https://img.freepik.com/premium-photo/flat-color-camera-logo-ai-generated_860599-6247.jpg", initial_sidebar_state="expanded")
 
     
     # logo_url = r"C:\Users\mgmoh\Desktop\flat-color-camera-logo-ai-generated_860599-6247.jpg"
@@ -122,7 +122,7 @@ def main():
 
         if option == "Original":
             st.balloons()
-            st.image(original_image, channels="BGR", caption="Original Image")
+            st.image(original_image, caption="Original Image")
 
         elif option == "RGB":
             st.balloons()
