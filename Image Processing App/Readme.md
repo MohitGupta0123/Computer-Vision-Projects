@@ -1,3 +1,3 @@
 ### Image Processing App
 
-[![Watch the video]](streamlit-image_processing-2024-02-22-14-02-10.webm)
+[![Watch the video]](https://www.youtube.com/watch?v=O0zejFyF05Y&t=2s)
